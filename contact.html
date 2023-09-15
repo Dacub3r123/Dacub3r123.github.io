@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bobs Donut Shop</title>
+	<meta charset="utf-8">
+	<link href="donuts.css" rel="stylesheet">
+</head>
+
+<body>
+	<header>
+		<h1>Bob's Donut Shop</h1>
+	</header>
+	<nav>
+		<a href="index.html">Home</a> &nbsp;
+		<a href="price.html">Prices</a> &nbsp;
+		<a href="contact.html">Contact Us</a> &nbsp;
+	</nav>
+	<main>
+		<div id="wrapper">
+			<h2>
+				<img src="donut.png" alt="A picture of a donut" height="50" style="width: 3%">
+					Contact us for more information! 
+				<img src="donut.png" alt="A picture of a donut" height="50" style="width: 3%">
+			</h2>
+            <h4>All fields with an asterisk (*), must be filled in.</h4>
+            <div class="form-center">
+                <form method="post" action= "https://webdevbasics.net/scripts/demo.php">
+                    <label for="myFName">* First Name:</label>
+                    <input type="text" name="myFName" id="myFName" required="required">
+                    <label  for="myLName">* Last Name:</label>
+                    <input type="text" name="myLName" id="myLName" required="required">
+                    <label for="myEMail">* E-Mail Address:</label>
+                    <input type="email" name="myEMail" id="myEMail" required="required">
+                    <label for="myNumber">Phone Number:</label>
+                    <input type="tel" name="myNumber" id="myNumber" maxlength="12">
+                    <label for="myComments">* Questions or Comments:</label>
+                    <textarea name="myComments" id="myComments" rows="2" cols="30" required="required"></textarea>
+                    <input type="submit">
+                </form>
+            </div>
+		</div>
+		<br>
+		<div id="contact">
+			Bob's Donut Shop<br>
+			1234 Donut Road<br>
+			Kaysville, Ut 84037<br>
+			<br>
+			888-555-5555<br>
+			<br>
+		</div>
+	</main>
+	<footer>
+		Copyright &copy; 2023 Bob's Donut Shop<br>
+		<a href="mailto:brytondavis@davistech.edu">
+			brytondavis@davistech.edu
+		</a>
+		<br>
+		<img src="baker.png" alt="A picture of a happy baker" height="100" style="width: 7%">
+	</footer>
+</body>
+
+</html>

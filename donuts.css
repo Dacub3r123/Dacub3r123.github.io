@@ -1,0 +1,125 @@
+body {
+	background-color: #FFFF99;
+	color: #006600;
+	font-family: arial, Arial, Helvetica, sans-serif;
+}
+header {
+	background-color: #006600;
+	color: #FFFFFF;
+	line-height: 400%;
+	text-indent: 1em;
+}
+nav {
+	background-color: #99FF33;
+	font-weight: bold;
+}
+nav a {
+	text-decoration: none;
+}
+nav a:link {
+	color: #2e3cb6;
+}
+nav a:visited {
+	color: #4b0b69;
+}
+nav a:hover {
+	color: #a52a2a;
+	transition: color 2s linear;
+}
+h1 {
+	margin-bottom: 0;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h2 {
+	font-weight: bold;
+	color: #006600;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+}
+h4 {
+	font-weight: bold;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: #006600;
+	text-align: center;
+}
+ul {
+	list-style-image: url(rollingpin.png);
+}
+footer {
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	clear: both;
+}
+p {
+	text-align: center;
+}
+#contact {
+	text-align: center;
+	clear: both;
+}
+#wrapper  {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #90c7e3;
+	min-width: 960px;
+	max-width: 2048px;
+	box-shadow: 3px 3px 3px #333333;
+	border: 1px solid #000033;
+	background-image: linear-gradient(to bottom, #ffffff, #99ff33);
+}
+#left-column {
+	float: left;
+	width: 43%;
+	padding-left: 5px;
+	padding-right: 100px;
+}
+table {
+	border: 2px solid #006600;
+	border-collapse: collapse;
+	;
+}
+td {
+	padding: 0.5em;
+	border: 2px solid #006600;
+}
+th {
+	padding: 0.5em;
+	border: 2px solid #006600;
+}
+td {
+	text-align: center;
+}
+.text {
+	text-align: left;
+}
+tr:nth-of-type(odd) {
+	background-color: #99ff33;
+}
+tr:nth-of-type(even) {
+	background-color: #ffffff;
+}
+.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+#special {
+	clear: both;
+}
+.form-center {
+	display: flex;
+	justify-content: center;
+}
+input {
+	display: block;
+	margin-bottom: 20px;
+}
+textarea {
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"] {
+	margin-left: 140px;
+}
